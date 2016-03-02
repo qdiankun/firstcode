@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.执行Create SqliteDb Book -> 创建数据库后想要添加一个Category表  -> 修改版本号为2 -> 执行了onUpgrade方法"
+            android:textColor="@color/transparent_red"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/btn_create_sqlite"
+            style="@style/button_style"
+            android:text="Create SqliteDb Book"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_update_sqlite"
+            style="@style/button_style"
+            android:text="Update to Add Category Table"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.使用ContentValues执行CRUD"
+            android:textColor="@color/transparent_red"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/btn_add_book_data"
+            style="@style/button_style"
+            android:text="Add Book Data"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_update_book_data"
+            style="@style/button_style"
+            android:text="Update Book Data"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_delete_book_data"
+            style="@style/button_style"
+            android:text="Delete Book Data"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_query_book_data"
+            style="@style/button_style"
+            android:text="Query Book Data"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.使用SQL语句执行CRUD"
+            android:textColor="@color/transparent_red"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/btn_add_book_data_sql"
+            style="@style/button_style"
+            android:text="Add Book Data"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_update_book_data_sql"
+            style="@style/button_style"
+            android:text="Update Book Data"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_delete_book_data_sql"
+            style="@style/button_style"
+            android:text="Delete Book Data"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_query_book_data_sql"
+            style="@style/button_style"
+            android:text="Query Book Data"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.使用事务清空Book中的数据，插入新的数据"
+            android:textColor="@color/transparent_red"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_replace_book"
+            style="@style/button_style"
+            android:text="Replace Book Data"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</ScrollView>
