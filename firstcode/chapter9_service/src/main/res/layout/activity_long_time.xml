@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_start_longtime"
+        style="@style/button_style"
+        android:text="开启定时任务" />
+
+
+    <Button
+        android:id="@+id/btn_stop_longtime"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:text="关闭定时任务" />
+
+</LinearLayout>

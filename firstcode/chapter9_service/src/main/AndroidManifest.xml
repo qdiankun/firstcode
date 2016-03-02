@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.me.diankun.firstcode">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StartServiceActivity" />
+        <activity android:name=".BindServiceActivity" />
+        <activity android:name=".IntentServiceActivity" />
+        <activity android:name=".ForegroundServiceActivity"></activity>
+        <activity android:name=".AsyncActivity"></activity>
+        <activity android:name=".LongTimeActivity"></activity>
+        <activity android:name=".RemoteServiceActivity"></activity>
+
+        <!-- 注册Service -->
+        <service android:name=".service.MyService" />
+        <service android:name=".service.BindService" />
+        <service android:name=".service.MyIntentService" />
+        <service android:name=".service.ForegroundService" />
+        <service android:name=".service.LongTimeService" />
+        <service android:name=".service.ANRService" />
+        <!-- 设置RemoteService为远程Service -->
+        <service
+            android:name=".service.RemoteService"
+            android:process=":remote" />
+        <service
+            android:name=".service.AIDLService"
+            android:process=":remote" />
+        <!-- 隐式调用Intent,设置action -->
+        <service android:name=".service.AIDLService2">
+            <intent-filter>
+                <action android:name="com.me.diankun.aidlservice.service.AIDLService2" />
+            </intent-filter>
+        </service>
+
+        <!-- 注册Receiver -->
+        <receiver android:name=".receiver.AlarmReceiver" />
+    </application>
+
+</manifest>

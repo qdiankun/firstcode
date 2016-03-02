@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--点击后的设置-->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!-- 填充颜色 -->
+            <solid android:color="#C8CACC"></solid>
+            <!-- 设置四个按钮的四个角为弧形-->
+            <!--<corners android:radius="5dip"></corners>-->
+            <!-- 设置Button里面文字与Buttom边界的距离 -->
+            <padding android:bottom="5dp" android:left="5dp" android:right="5dp" android:top="5dp"></padding>
+        </shape>
+    </item>
+    <!-- 默认颜色 -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- 填充颜色 -->
+            <solid android:color="#FFFFFF"></solid>
+            <!-- 设置四个按钮的四个角为弧形-->
+            <!--<corners android:radius="5dip"></corners>-->
+            <!-- 设置Button里面文字与Buttom边界的距离 -->
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp"></padding>
+        </shape>
+    </item>
+</selector>

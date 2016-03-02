@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_start_service"
+        style="@style/button_style"
+        android:text="启动Service报ANR" />
+
+
+    <Button
+        android:id="@+id/btn_start_remoteservice"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:text="设置Service为remote,StartService不报ANR" />
+
+    <Button
+        android:id="@+id/btn_start_bind_remoteservice"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:text="设置Service为remote,BindService报错" />
+
+    <Button
+        android:id="@+id/btn_start_bind_aidl_remoteservice"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:text="设置Service为remote;使用AIDL后,BindService正确" />
+
+</LinearLayout>
