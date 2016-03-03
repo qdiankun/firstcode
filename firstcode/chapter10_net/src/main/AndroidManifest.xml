@@ -27,6 +27,8 @@
             android:screenOrientation="portrait"></activity>
         <activity
             android:name=".XMLActivity"
+            android:screenOrientation="portrait"></activity>        <activity
+            android:name=".JSONActivity"
             android:screenOrientation="portrait"></activity>
     </application>
 

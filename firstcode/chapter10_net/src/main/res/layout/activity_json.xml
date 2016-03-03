@@ -7,18 +7,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="解析XML的几种方式"
+        android:text="解析JSON的几种方式"
         android:textColor="@color/transparent_red"
         android:textSize="18sp" />
 
     <Button
-        android:id="@+id/btn_use_pull"
+        android:id="@+id/btn_normal_json"
         style="@style/button_style"
-        android:text="使用Pull解析XML" />
+        android:text="普通的解析Json方式" />
 
     <Button
-        android:id="@+id/btn_use_sax"
+        android:id="@+id/btn_gson_json"
         style="@style/button_style"
-        android:text="使用SAX解析XML" />
+        android:text="使用GSON解析JSON" />
 
 </LinearLayout>

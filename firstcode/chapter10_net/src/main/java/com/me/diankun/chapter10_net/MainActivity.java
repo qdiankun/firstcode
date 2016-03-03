@@ -14,9 +14,9 @@ public class MainActivity extends AppCompatActivity {
 
     private Context context = this;
 
-    private final String[] items = {"使用WebView","HttpURLConnection获取返回结果","解析XML"};
+    private final String[] items = {"使用WebView", "HttpURLConnection获取返回结果", "解析XML", "解析JSON"};
 
-    private final Class<?>[] classes = {WebviewActvity.class,HttpURLConnectionActivity.class,XMLActivity.class};
+    private final Class<?>[] classes = {WebviewActvity.class, HttpURLConnectionActivity.class, XMLActivity.class, JSONActivity.class};
     private ArrayAdapter<String> mAdapter;
 
     @Override
