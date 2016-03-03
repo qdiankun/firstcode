@@ -1,1 +1,1 @@
-include ':chapter9_service', ':aidlclient', ':chapter6_data', ':chapter10_net'
+include ':chapter9_service', ':aidlclient', ':chapter6_data', ':chapter10_net', ':chapter5_broadcast', ':chapter5_another_broadcast'

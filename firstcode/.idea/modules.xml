@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/aidlclient/aidlclient.iml" filepath="$PROJECT_DIR$/aidlclient/aidlclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter10_net/chapter10_net.iml" filepath="$PROJECT_DIR$/chapter10_net/chapter10_net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter5_another_broadcast/chapter5_another_broadcast.iml" filepath="$PROJECT_DIR$/chapter5_another_broadcast/chapter5_another_broadcast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter5_broadcast/chapter5_broadcast.iml" filepath="$PROJECT_DIR$/chapter5_broadcast/chapter5_broadcast.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter6_data/chapter6_data.iml" filepath="$PROJECT_DIR$/chapter6_data/chapter6_data.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter9_service/chapter9_service.iml" filepath="$PROJECT_DIR$/chapter9_service/chapter9_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/firstcode.iml" filepath="$PROJECT_DIR$/firstcode.iml" />
