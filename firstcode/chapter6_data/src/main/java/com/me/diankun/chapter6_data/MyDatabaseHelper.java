@@ -50,7 +50,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
 		switch (oldVersion) {
 			// 升级数据库1的时候，Book表已经创建好了，只要再创建Category表
 			// 注意，switch没有使用break跳出循环，每个case都执行一次
-			case 1:
+			case 1://指的是当前版本号
 				db.execSQL(CRATE_CATEGORY);
 			case 2:
 				// db.execSQL(CRATE_OTHER);

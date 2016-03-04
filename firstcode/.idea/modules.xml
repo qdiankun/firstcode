@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/chapter5_broadcast/chapter5_broadcast.iml" filepath="$PROJECT_DIR$/chapter5_broadcast/chapter5_broadcast.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter5_broadcast/chapter5_broadcast.iml" filepath="$PROJECT_DIR$/chapter5_broadcast/chapter5_broadcast.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter6_data/chapter6_data.iml" filepath="$PROJECT_DIR$/chapter6_data/chapter6_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter7_contentprovider/chapter7_contentprovider.iml" filepath="$PROJECT_DIR$/chapter7_contentprovider/chapter7_contentprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter9_service/chapter9_service.iml" filepath="$PROJECT_DIR$/chapter9_service/chapter9_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/firstcode.iml" filepath="$PROJECT_DIR$/firstcode.iml" />
     </modules>
