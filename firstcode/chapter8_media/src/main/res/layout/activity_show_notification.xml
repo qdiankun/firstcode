@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        style="@style/button_style"
+        android:id="@+id/btn_show_notification"
+        android:text="显示一条Notification" />
+
+
+    <Button
+        style="@style/button_style"
+        android:id="@+id/btn_dismiss_notification"
+        android:text="关闭一条Notificaiton" />
+
+
+</LinearLayout>
