@@ -15,10 +15,10 @@ public class MainActivity extends AppCompatActivity {
     private Context context = this;
 
     private final String[] items = {"显示一条通知", "接收短信", "发送短信",
-            "拍摄照片"};
+            "拍摄照片", "播放音乐", "播放视频"};
 
     private final Class<?>[] classes = {ShowNotificationActivity.class, ReceiverMessageActivity.class, SendMessageActivity.class,
-            TakePhotoActivity.class};
+            TakePhotoActivity.class, PlayMusicActivity.class, PlayVideoActivity.class};
     private ArrayAdapter<String> mAdapter;
 
     @Override
