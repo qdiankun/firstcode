@@ -30,3 +30,8 @@ proguard/
 
 # Android Studio captures folder
 captures/
+
+# Intellij project files
+firstcode/.idea/gradle.xml
+firstcode/.idea/misc.xml
+firstcode/.idea/modules.xml
