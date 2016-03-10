@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">chapter12_sensor</string>
+
+
+    <string name="img_description">img description</string>
+
+
+    <string name="sem_watch">\uf06e</string>
+    <string name="sem_star">\uf005</string>
+    <string name="sem_fork">\uf126</string>
+    <string name="sem_tag">\uf02b</string>
+</resources>

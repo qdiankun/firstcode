@@ -1,1 +1,1 @@
-include ':chapter9_service', ':aidlclient', ':chapter6_data', ':chapter10_net', ':chapter5_broadcast', ':chapter5_another_broadcast', ':chapter7_contentprovider', ':chapter8_media', ':chapter11_location'
+include ':chapter9_service', ':aidlclient', ':chapter6_data', ':chapter10_net', ':chapter5_broadcast', ':chapter5_another_broadcast', ':chapter7_contentprovider', ':chapter8_media', ':chapter11_location', ':chapter12_sensor', ':chapter12_sensor', ':chapter14_coolweather'

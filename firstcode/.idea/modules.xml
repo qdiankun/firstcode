@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/aidlclient/aidlclient.iml" filepath="$PROJECT_DIR$/aidlclient/aidlclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter10_net/chapter10_net.iml" filepath="$PROJECT_DIR$/chapter10_net/chapter10_net.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter11_location/chapter11_location.iml" filepath="$PROJECT_DIR$/chapter11_location/chapter11_location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter12_sensor/chapter12_sensor.iml" filepath="$PROJECT_DIR$/chapter12_sensor/chapter12_sensor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter14_coolweather/chapter14_coolweather.iml" filepath="$PROJECT_DIR$/chapter14_coolweather/chapter14_coolweather.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter5_another_broadcast/chapter5_another_broadcast.iml" filepath="$PROJECT_DIR$/chapter5_another_broadcast/chapter5_another_broadcast.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter5_broadcast/chapter5_broadcast.iml" filepath="$PROJECT_DIR$/chapter5_broadcast/chapter5_broadcast.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter6_data/chapter6_data.iml" filepath="$PROJECT_DIR$/chapter6_data/chapter6_data.iml" />
